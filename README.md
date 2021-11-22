@@ -10,9 +10,9 @@ Tracking my journey of learning the Git and GitHub technologies.
 **My Understandings:**
 ----------------------
 
-## Git vs Github? 
+## Git vs Github :
 
-Git is a way to *track changes* made to project(version control),whereas Github is a *remote hosting service*(Web).
+Git is a way to *track changes* made to project(version control), whereas Github is a *remote hosting service*(Web).
 
 ## Glossary :
 

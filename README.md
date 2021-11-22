@@ -20,5 +20,5 @@ Git is a way to *track changes* made to project(version control), whereas Github
 * **Directory :**  A folder.
 * **Terminal/CommandLine :** Used to enter commands.
 * **CLI :** Interactive command line.
-* **Code editor :** A place where writting code is easier due to different tools available + different interfaces available .
+* **Code editor :** A place where writting code is easier due to different tools available + different interfaces available.
 * **Repository :** A folder where your code is stored.

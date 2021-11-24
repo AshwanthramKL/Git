@@ -18,9 +18,10 @@ Git is a way to *track changes* made to project(version control), whereas Github
 
 * **Version Control :** It is a way to track and maintain changes made to a project by single/different people.
 * **Directory :**  A folder.
+* **Repository :** A folder where your code is stored.
 * **Terminal/CommandLine :** Used to enter commands.
 * **CLI :** Interactive command line.
 * **Code editor :** A place where writting code is easier due to different tools available + different interfaces available.
-* **Repository :** A folder where your code is stored.
 * **Local machine :** Computer in which we work.
 * **Master :** The main branch which is going to be deployed.
+* **Untracked :** Git doesn't know about this file yet.

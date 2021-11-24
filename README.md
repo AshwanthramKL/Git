@@ -25,3 +25,4 @@ Git is a way to *track changes* made to project(version control), whereas Github
 * **Local machine :** Computer in which we work.
 * **Master :** The main branch which is going to be deployed.
 * **Untracked :** Git doesn't know about this file yet.
+* **SSH Key :** An access credential for the SSH (secure shell) network protocol.

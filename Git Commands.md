@@ -1,5 +1,24 @@
 # **Git Commands**
 
+
+
+### **Init :**
+
+```
+git init
+```
+Initializes the existing folder into Git as a repository.
+
+>   __Hint :__    
+    When a repository is created in the code editor with init command and not cloned from Github, it cannot be Pushed into Github.  
+    So do the following:  
+    *  Create empty repo in Github and copy its SSH link.  
+    * Go to terminal and enter the following  
+    ```
+    git remote add [ssh link]
+    ```  
+    Now your good to go. ;)
+___
 ### **Clone :**   
 
 ```
@@ -15,9 +34,96 @@ Creates a copy of the repository in the local machine from Github(Web).
 ---
 
 ### **Status :**  
+
 ```
 git status 
 ```
 Shows the files that have been modified, but not commited to the repository yet.  
 
+___
+
+
+### **Add :**  
+
+```
+git add .
+```  
+Adds all the existing untracked / modified files into the next commit ( or ) starts tracking them.  
+
+
+**[ OR ]**
+
+```
+git add file_name
+```
+Adds the mentioned file into the next commit ( or ) starts tracking them.
+
+____
+
+
+### **Diff :** 
+
+```
+git diff
+```
+Shows what has changed but not staged
+
+```
+git diff --staged
+```
+Shows what is staged but not yet commited.
+<p align="center">
+<img src="https://cdn.crunchify.com/wp-content/uploads/2013/08/Github-Stage-Option-on-File-Crunchify-Tips.png" width="750" title="Visualisation">
+</p>
+
+___
+
+### **Commit :**
+
+```
+git commit -m "Topic Msg"
+```
+-m : message.  
+"Topic Msg" - Must have the what and why of the commit.  
+(It is mandatory)
+
+**[ OR ]**
+
+```
+git commit -m "Topic Msg" -m "Description of the commit"
+```
+
+![alt text](https://docs.github.com/assets/images/help/repository/first-commit.png "Visualisation")
+
+___
+### **Push :**
+
+```
+git push [variable name] [branch]
+```
+variable name - usually "origin" / location of our git repository.  
+branch - usually "master" / branch we want to push into.
+
+**[ OR ]**
+
+Instead of typing this long command all the time,  
+we can set and upstream(a default location to push the code everytime).
+
+```
+git push -u [variable name] [branch]
+```
+
+Now, we can just use 
+
+```
+git push
+```
+___
+
+### **Pull :**
+
+```
+git pull
+```
+Gets commits from Github and mergers it to the local machine.
 ___

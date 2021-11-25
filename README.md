@@ -4,7 +4,8 @@ Tracking my journey of learning the Git and GitHub technologies.
 **Resources:**
 ----------
 
-[FreeCodeCamp Video](https://youtu.be/RGOj5yH7evk)   
+[FreeCodeCamp Video 1](https://youtu.be/RGOj5yH7evk)  
+[FreeCodeCamp Video 2(advanced git)](https://youtu.be/qsTthZi23VE)  
 [CheatSheet ;)](https://education.github.com/git-cheat-sheet-education.pdf)
 
 **My Understandings:**
@@ -26,3 +27,5 @@ Git is a way to *track changes* made to project(version control), whereas Github
 * **Master / dev :** The main branch which is going to be deployed.
 * **Untracked :** Git doesn't know about this file yet.
 * **SSH Key :** An access credential for the SSH (secure shell) network protocol.
+* **Pull Request(PR) :**  Permission (or) Request to have our code 'pulled' into another branch.
+

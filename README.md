@@ -1,5 +1,5 @@
-# **Learning Git-Github**
-Tracking my journey of learning the Git and GitHub technologies.
+# **Git-Github Commands**
+Git and GitHub commands, tips and tricks.
 
 **Resources:**
 ----------

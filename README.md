@@ -1,4 +1,4 @@
-# **Git-Github Commands**
+# **Git-Github**
 Git and GitHub commands, tips and tricks.
 
 **Resources:**
